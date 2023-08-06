@@ -1,0 +1,9 @@
+{
+  "name": "grammar-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "./start_app.sh"
+  }
+}
