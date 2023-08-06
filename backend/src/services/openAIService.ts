@@ -22,9 +22,8 @@ async function getCorrectedSentenceFromOpenAI(
 
     const chatCompletion = await openai.createChatCompletion(chatCompletionReq);
     return chatCompletion?.data?.choices[0]?.message?.content || "";
-  } catch (error) {
-    console.error(error);
-    return "";
+  } catch (error: any) {
+    throw new Error(error);
   }
 }
 
