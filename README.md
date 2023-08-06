@@ -24,7 +24,7 @@ Grammar Bot is a simple bot that uses OpenAI's GPT-3.5 language model to check a
 
 ## Installation
 
-- `cd backend && echo "OPENAI_API_KEY=your_api_key_here" > .env` - run this command and replace `your_api_key_here` with your openai api key.
+- `cd backend && echo "OPENAI_API_KEY=your_api_key_here" > .env && cd ..` - run this command and replace `your_api_key_here` with your openai api key.
 - `npm start` - It will run a bash script to install dependencies and start the server. The frontend will be accessible at [**here**](http://localhost:8080/)
 
 ## API Commands
