@@ -22,6 +22,7 @@ app.use("/api", correctionsRouter);
 // Define the path to your HTML file
 const staticFilesPath = path.join(__dirname, "../../frontend");
 app.use(express.static(staticFilesPath));
+app.use(express.static(path.join(__dirname, "js")));
 
 // Serve the HTML file when a GET request is made to the root URL
 app.get("/", (req: Request, res: Response) => {
