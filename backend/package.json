@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start:dev": "npx nodemon",
-    "build": "rimraf ./build && tsc",
+    "build": "npm install && rimraf ./build && tsc",
     "start": "npm run build && node build/server.js"
   },
   "devDependencies": {
