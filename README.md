@@ -2,6 +2,11 @@
 
 Here's the [Deployed Link](https://grammar-bot-gpt.onrender.com)
 
+#### deployed APIs
+- [**GET /corrections**](https://grammar-bot-gpt.onrender.com/api/corrections)
+- [**GET /random**](https://grammar-bot-gpt.onrender.com/api/random)
+
+
 Grammar Bot is a simple bot that uses OpenAI's GPT-3.5 language model to check and correct grammar in sentences.
 
 ## Features
@@ -33,6 +38,6 @@ Grammar Bot is a simple bot that uses OpenAI's GPT-3.5 language model to check a
 
 #### After the server is up and running, you can interact with the APIs:
 
-- [**GET /corrections**](http://localhost:8080/api/corrections) - API to retrieve and display all correction pairs (original and corrected sentences) from the database:
+- [**GET /corrections**](http://localhost:8080/api/corrections) - API to retrieve and display all correction pairs (original and corrected sentences) from the database.
 
 - [**GET /random**](http://localhost:8080/api/random) - API to retrieve and display a random correction pair from the database.
